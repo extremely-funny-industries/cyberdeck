@@ -22,7 +22,7 @@ use webrtc::peer_connection::sdp::session_description::RTCSessionDescription;
 use webrtc::peer_connection::RTCPeerConnection;
 
 pub struct Configuration {
-    stun_or_turn_urls: Vec<String>,
+    pub stun_or_turn_urls: Vec<String>,
 }
 
 pub type DataChannel = Arc<RTCDataChannel>;
